@@ -1,0 +1,13 @@
+Since you're reading this, you've already downloaded and uncompressed 
+the sources file. So now we install. This instructions are specific
+for Debian based distributions for should work for any other type.
+
+Installation:
+$sudo ./install.sh
+
+Recommended:
+It is a good idea to have the clients installed, so be sure to have the following
+ones installed. Also, a very nice addition is a "dialog" menu list, so install
+the package "dialog". For ubuntu, you might want to run this:
+
+$sudo aptitude install xvnc4viewer xtightvncviewer vnc-viewer rdesktop dialog ssh-client telnet-client lftp

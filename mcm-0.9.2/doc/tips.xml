@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tips version="0.1">
+    <section name="vim">
+        <subsection name="Basics">
+            <tip name="Save file" value=":w"/>
+            <tip name="Save file and quit" value=":wq"/>
+            <tip name="Quit without saving" value=":q or :q!"/>
+            <tip name="Insert Mode" value="i"/>
+            <tip name="Command Mode" value="Esc"/>
+            <tip name="Visual Mode" value="v"/>
+            <tip name="Visual Line Mode" value="V"/>
+            <tip name="Visual Block Mode" value="Ctrl + v"/>
+            <tip name="Undo" value="u"/>
+            <tip name="Undo line to original" value="U"/>
+            <tip name="Redo" value="Ctrl + R"/>
+        </subsection>
+        <subsection name="Movement">
+            <tip name="Move Left" value="h"/>
+            <tip name="Move Right" value="l"/>
+            <tip name="Move Down" value="j"/>
+            <tip name="Move Up" value="k"/>
+            <tip name="Move Page Up" value="Ctrl + u"/>
+            <tip name="Move Page Down" value="Ctrl + d"/>
+            <tip name="Go to end of line" value="$"/>
+            <tip name="Go to start of line" value="0"/>
+            <tip name="Go to end of file" value="G"/>
+            <tip name="Go to start of file" value="gg"/>
+            <tip name="Go to line 1350" value=":1350"/>
+        </subsection>
+        <subsection name="Edition">
+            <tip name="Replace One" value="r"/>
+            <tip name="Replace" value="gR"/>
+        </subsection>
+        <subsection name="Advanced">
+            <tip name="Syntax Highlight" value=":syn on"/>
+            <tip name="Syntax Colors" value=":colorscheme desert"/>
+            <tip name="Open Tab" value=":tabnew foo"/>
+            <tip name="Split Vertically" value=":vsplit foo"/>
+            <tip name="Split Horizontally" value=":split foo"/>
+            <tip name="Change to Window" value="Ctrl + w + direction"/>
+        </subsection>
+    </section>
+    <section name="MyCommands">
+        <subsection name="bash">
+            <tip name="Explode JARs" value="for i in *.jar; do ; done"/>
+            <tip name="Apps connected to the Internet" value="netstat -lantp | grep -i stab | awk -F/ '{print $2}' | sort | uniq"/>
+            <tip name="Start HTTP Server" value="python -c 'import SimpleHTTPServer;SimpleHTTPServer.test()'"/>
+            <tip name="Añadir variable de entorno" value="export VARIABLE='valor'"/>
+        </subsection>
+    </section>
+    <section name="Linux">
+        <subsection name="Basics">
+            <tip name="List Files" value="ls"/>
+            <tip name="Copy" value="cp"/>
+            <tip name="Rename/Move" value="mv"/>
+            <tip name="Delete" value="rm"/>
+            <tip name="Find a file foo" value="find -name foo"/>
+            <tip name="Find bar in a file foo" value="grep bar foo"/>
+            <tip name="New Directory" value="mkdir"/>
+            <tip name="Delete Empty Directory" value="rmdir"/>
+            <tip name="Delete Directory" value="rm -rf foo"/>
+        </subsection>
+        <subsection name="Medium">
+            <tip name="Change permissions of file" value="chmod"/>
+            <tip name="Change owner of file" value="chown"/>
+            <tip name="Change group of file" value="chgrp"/>
+            <tip name="Install Software (Ubuntu)" value="sudo aptitude install foo"/>
+            <tip name="Install Software (Debian)" value="apt-get install foo"/>
+            <tip name="Install Software (Fedora)" value="yum install foo"/>
+            <tip name="Run a command if the previous succeded" value="command1 command2"/>
+            <tip name="Run a command if the previous failed" value="command1 || command2"/>
+            <tip name="Calculate runtime of a process" value="time command"/>
+        </subsection>
+        <subsection name="Advanced">
+            <tip name="Read a file line by line (Bash)" value="while read -r line; echo $line; done foo"/>
+        </subsection>
+        <subsection name="Special Variables">
+            <tip name="Exit status of last command" value="$?"/>
+            <tip name="Program name" value="$0"/>
+            <tip name="Program PID" value="$$"/>
+            <tip name="PID of last backgroud job" value="$!"/>
+            <tip name="Number of arguments" value="$#"/>
+            <tip name="Arguments" value="$1..n"/>
+            <tip name="All arguments in one line" value="$*"/>
+        </subsection>
+    </section>
+<!--
+    <section name="">
+        <subsection name="">
+            <tip name="" value=""/>
+        </subsection>
+    </section>
+-->
+</tips>

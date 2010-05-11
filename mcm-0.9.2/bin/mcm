@@ -1,0 +1,106 @@
+#!/bin/bash
+#
+# Copyright (C) 2009 Alejandro Ayuso 
+#
+# This file is part of the Monocaffe Connection Manager
+#
+# Monocaffe Connection Manager is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Monocaffe Connection Manager is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with the Monocaffe Connection Manager.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Introduction
+#
+# The Monocaffe Connection Manager is created to ease the management of connections to different
+# servers a sysadmin usuarlly connect to. I'm aiming to provide support for:
+# -ssh
+# -telnet
+# -vnc
+# -rdesktop
+# -ICA (Citrix) TO DO
+#
+# This basically depends on which of this programs can be called from the command line without
+# too much trouble. Also, very basic options will be used, so if you want more complex options
+# like mount usb drives for rdesktop, or sound for VNC, use the proper utilities for this or
+# modify mcm.
+#
+# Configuration
+# mcm comes configured for Ubuntu (my platform) but basically, all you need to modify in case one
+# of the commands isn't found, is the file connections.py. There you'll find the global tuples where
+# the paths to the clients are specified. You can change them freely.
+#
+# Also, if you preffer to change any of them to be the first, do so modifying the tuples mentioned
+# before.
+#
+
+inst_dir="/usr/share/apps/mcm"
+gtk_dir="${inst_dir}/gtk/"
+binary=$( basename ${0} )
+old_pythonpath=${PYTHONPATH}
+
+xdg_data="${HOME}/.local/share/"
+xdg_config="${HOME}/.config/"
+
+mcm_data="${xdg_data}mcm"
+mcm_config="${xdg_config}mcm"
+
+src_config_file="${inst_dir}/doc/mcm.conf"
+src_tips_file="${inst_dir}/doc/tips.json"
+src_cxs_file="${inst_dir}/doc/mcm.xml"
+
+# Test for first run
+if [ ! -d "${mcm_data}" ] ; then
+    echo "Copying default data files to ${mcm_data}"
+    mkdir ${mcm_data}
+    cp ${src_tips_file}   ${mcm_data} 
+    cp ${src_cxs_file}    ${mcm_data}
+fi
+
+if [ ! -d "${mcm_config}" ] ; then
+    echo "Copying default configuration to ${mcm_config}"
+    mkdir ${mcm_config}
+    cp ${src_config_file} ${mcm_config}
+fi
+
+# Even if the directories exists, we might be missing some files
+
+if [ ! -f "${mcm_data}/tips.json" ]; then
+    cp ${src_tips_file} ${mcm_data}
+fi
+
+if [ ! -f "${mcm_data}/mcm.xml" ]; then
+    cp ${src_cxs_file} ${mcm_data}
+fi
+
+if [ ! -f "${mcm_config}/mcm.conf" ]; then
+    cp ${src_config_file} ${mcm_conf}
+fi
+
+# In case this is the first time the app is being run after an update
+# of a release which doesn't use XDG, I'll move the old files to their
+# new locations
+
+if [ -d "${HOME}/.mcm" ] ; then
+    mv "${HOME}/.mcm/mcm.conf" ${mcm_config}
+    mv "${HOME}/.mcm/mcm.xml" ${mcm_data}
+    mv "${HOME}/.mcm/tips.json" ${mcm_data}
+    rmdir "${HOME}/.mcm"
+fi
+
+export PYTHONPATH="/usr/share/apps/"
+
+if [ "${binary}" == "mcm" ] ; then
+    /usr/bin/python ${inst_dir}/terminal/mcm-terminal.py ${@}
+else
+    /usr/bin/python ${inst_dir}/gtk/mcm-gtk.py &
+fi
+
+export PYTHONPATH="${old_pythonpath}"

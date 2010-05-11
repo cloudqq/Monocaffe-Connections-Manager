@@ -1,0 +1,2840 @@
+[
+    {
+        "name": "Add a Buffer", 
+        "section": "VIM", 
+        "subsection": "Buffers", 
+        "value": ":badd"
+    }, 
+    {
+        "name": "List Buffers", 
+        "section": "VIM", 
+        "subsection": "Buffers", 
+        "value": ":ls, :buffers, :files"
+    }, 
+    {
+        "name": "Delete Buffer", 
+        "section": "VIM", 
+        "subsection": "Buffers", 
+        "value": ":bdelete"
+    }, 
+    {
+        "name": "Unload Buffer", 
+        "section": "VIM", 
+        "subsection": "Buffers", 
+        "value": ":bunload"
+    }, 
+    {
+        "name": "Open All Buffers", 
+        "section": "VIM", 
+        "subsection": "Buffers", 
+        "value": ":ball"
+    }, 
+    {
+        "name": "Open All Loaded Buffers", 
+        "section": "VIM", 
+        "subsection": "Buffers", 
+        "value": ":unhide"
+    }, 
+    {
+        "name": "Go to Next", 
+        "section": "VIM", 
+        "subsection": "Buffers", 
+        "value": ":bn"
+    }, 
+    {
+        "name": "Shutdown", 
+        "section": "Linux", 
+        "subsection": "Starting & Stopping", 
+        "value": "shutdown -h now"
+    }, 
+    {
+        "name": "Shutdown", 
+        "section": "Linux", 
+        "subsection": "Starting & Stopping", 
+        "value": "halt"
+    }, 
+    {
+        "name": "Shutdown in 5 minutes", 
+        "section": "Linux", 
+        "subsection": "Starting & Stopping", 
+        "value": "shutdown -h 5"
+    }, 
+    {
+        "name": "Reboot", 
+        "section": "Linux", 
+        "subsection": "Starting & Stopping", 
+        "value": "shutdown -r now"
+    }, 
+    {
+        "name": "Reboot", 
+        "section": "Linux", 
+        "subsection": "Starting & Stopping", 
+        "value": "reboot"
+    }, 
+    {
+        "name": "Start X Server", 
+        "section": "Linux", 
+        "subsection": "Starting & Stopping", 
+        "value": "startx"
+    }, 
+    {
+        "name": "Mount the device cdrom", 
+        "section": "Linux", 
+        "subsection": "Filesystems", 
+        "value": "mount -t iso9660 /dev/cdrom /mnt/cdrom"
+    }, 
+    {
+        "name": "Unmount the cdrom", 
+        "section": "Linux", 
+        "subsection": "Filesystems", 
+        "value": "umount /mnt/cdrom"
+    }, 
+    {
+        "name": "Mount ISO/UDF Image", 
+        "section": "Linux", 
+        "subsection": "Filesystems", 
+        "value": "mount -o loop disk1.iso /mnt/disk"
+    }, 
+    {
+        "name": "Execute the check utility", 
+        "section": "Linux", 
+        "subsection": "Filesystems", 
+        "value": "/sbin/e2fsck hda5"
+    }, 
+    {
+        "name": "Make ISO image of a folder", 
+        "section": "Linux", 
+        "subsection": "Filesystems", 
+        "value": "mkisofs -J -allow-lowercase -R -V \"OpenCD8806\" -iso-level 4 -o OpenCD.iso ~/OpenCD"
+    }, 
+    {
+        "name": "Recursively replace a string", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "find . -type f |xargs -I% sed -i '/foo/bar/>/ deleteMissing=\"true\">/' %"
+    }, 
+    {
+        "name": "Rename (substitute)", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "rename 's/foo/bar/' *"
+    }, 
+    {
+        "name": "Go to directory", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "cd directory"
+    }, 
+    {
+        "name": "Build from source", 
+        "section": "Linux", 
+        "subsection": "Advanced", 
+        "value": "./configure && make && make install"
+    }, 
+    {
+        "name": "IP Address", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "ifconfig"
+    }, 
+    {
+        "name": "Route Table (fast)", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "route -n"
+    }, 
+    {
+        "name": "Add default gateway", 
+        "section": "Linux", 
+        "subsection": "Advanced", 
+        "value": "route add default gw 192.168.1.1 eth0"
+    }, 
+    {
+        "name": "Set shell VI Mode", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "set -o vi"
+    }, 
+    {
+        "name": "Start a Simple HTTP Server", 
+        "section": "Linux", 
+        "subsection": "Advanced", 
+        "value": "python -c \"import SimpleHTTPServer; SimpleHTTPServer.test()\""
+    }, 
+    {
+        "name": "Set a shell variable", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "export VAR=\"foo\""
+    }, 
+    {
+        "name": "Add a directory to the PATH", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "export PATH=\"${PATH}:/foo\""
+    }, 
+    {
+        "name": "Run a command every 2 secs", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "watch \"ls | grep foo\""
+    }, 
+    {
+        "name": "Logout without killing a job", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "disown"
+    }, 
+    {
+        "name": "Grep with colors", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "alias grep=\"grep --color\""
+    }, 
+    {
+        "name": "Filename from Fullpath", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "basename /home/foo/bar"
+    }, 
+    {
+        "name": "Architecture", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "arch"
+    }, 
+    {
+        "name": "Disk usage info", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "df -h"
+    }, 
+    {
+        "name": "Memory usage", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "free"
+    }, 
+    {
+        "name": "Compress Files (tar)", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "tar -czf foo.tar.gz bar/*"
+    }, 
+    {
+        "name": "Compress Directory (zip)", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "zip -r foo.zip bar/"
+    }, 
+    {
+        "name": "Sort lines of a text file", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "sort"
+    }, 
+    {
+        "name": "Safely remove file", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "shred -u foo"
+    }, 
+    {
+        "name": "Convert pdf files to plain text", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "pdftotext"
+    }, 
+    {
+        "name": "Shell Calculator", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "echo \"6 + 3\" | bc"
+    }, 
+    {
+        "name": "Who is currently logged in", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "users"
+    }, 
+    {
+        "name": "Who is logged on and what they are doing", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "w"
+    }, 
+    {
+        "name": "Format a drive (ext4)", 
+        "section": "Linux", 
+        "subsection": "Advanced", 
+        "value": "mkfs.ext4"
+    }, 
+    {
+        "name": "Symbolic Link", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "ln -s target link"
+    }, 
+    {
+        "name": "Create temporary file", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "mktemp"
+    }, 
+    {
+        "name": "Find command path", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "which"
+    }, 
+    {
+        "name": "Count lines, words and chars", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "wc"
+    }, 
+    {
+        "name": "Locate a command or file", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "whereis"
+    }, 
+    {
+        "name": "Sync with the repository", 
+        "section": "CVS", 
+        "subsection": "Basics", 
+        "value": "cvs update"
+    }, 
+    {
+        "name": "Revision history for a file", 
+        "section": "CVS", 
+        "subsection": "Administration", 
+        "value": "cvs log foo"
+    }, 
+    {
+        "name": "Revision comment for file", 
+        "section": "CVS", 
+        "subsection": "Administration", 
+        "value": "cvs log -r1.5 foo"
+    }, 
+    {
+        "name": "Differences between a local/remote file", 
+        "section": "CVS", 
+        "subsection": "Basics", 
+        "value": "cvs diff filename"
+    }, 
+    {
+        "name": "Differences between two revisions", 
+        "section": "CVS", 
+        "subsection": "Basics", 
+        "value": "cvs diff -r1.4 -r1.7 foo"
+    }, 
+    {
+        "name": "Who modified each line of a file,", 
+        "section": "CVS", 
+        "subsection": "Administration", 
+        "value": "cvs annotate foo"
+    }, 
+    {
+        "name": "Add a new file", 
+        "section": "CVS", 
+        "subsection": "Basics", 
+        "value": "cvs add foo; cvs commit"
+    }, 
+    {
+        "name": "Add a new binary file", 
+        "section": "CVS", 
+        "subsection": "Basics", 
+        "value": "cvs add -kb foo; cvs commit"
+    }, 
+    {
+        "name": "Revert a file", 
+        "section": "CVS", 
+        "subsection": "Basics", 
+        "value": "cvs update foo"
+    }, 
+    {
+        "name": "Check out a whole project", 
+        "section": "CVS", 
+        "subsection": "Basics", 
+        "value": "cvs checkout project-name"
+    }, 
+    {
+        "name": "Label a tree", 
+        "section": "CVS", 
+        "subsection": "Administration", 
+        "value": "cvs tag -R -b label"
+    }, 
+    {
+        "name": "Check out a tree based on a label", 
+        "section": "CVS", 
+        "subsection": "Basics", 
+        "value": "cvs checkout -r label project"
+    }, 
+    {
+        "name": "Overwrite files with clean copies", 
+        "section": "CVS", 
+        "subsection": "Basics", 
+        "value": "cvs update -C foo"
+    }, 
+    {
+        "name": "N words forward", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "N w"
+    }, 
+    {
+        "name": "Forward blank-separated words", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "W"
+    }, 
+    {
+        "name": "Forward to the end of the word", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "e"
+    }, 
+    {
+        "name": "forward to the end of the blank-separated word", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "E"
+    }, 
+    {
+        "name": "Words backward", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "b"
+    }, 
+    {
+        "name": "Blank-separated words backward", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "B"
+    }, 
+    {
+        "name": "Backward to the end of the word", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "ge"
+    }, 
+    {
+        "name": "Backward to the end of the blank-separated word", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "gE"
+    }, 
+    {
+        "name": "Sentences forward", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": ")"
+    }, 
+    {
+        "name": "Sentences backward", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "("
+    }, 
+    {
+        "name": "Paragraphs forward", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "}"
+    }, 
+    {
+        "name": "Paragraphs backward", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "{"
+    }, 
+    {
+        "name": "Sections forward, at start of section", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "]]"
+    }, 
+    {
+        "name": "Sections backward, at start of section", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "[["
+    }, 
+    {
+        "name": "Sections forward, at end of section", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "]["
+    }, 
+    {
+        "name": "Sections backward, at end of section", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "[]"
+    }, 
+    {
+        "name": "Back to unclosed (", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "[("
+    }, 
+    {
+        "name": "Back to unclosed {", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "[("
+    }, 
+    {
+        "name": "Forward to unclosed (", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "])"
+    }, 
+    {
+        "name": "Forward to unclosed {", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "])"
+    }, 
+    {
+        "name": "Back to unclosed #if or #else", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "[#"
+    }, 
+    {
+        "name": "Forward to unclosed #else or #endif", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "]#"
+    }, 
+    {
+        "name": "Back to start of comment /*", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "[*"
+    }, 
+    {
+        "name": "Forward to end of comment */", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "]*"
+    }, 
+    {
+        "name": "Search forward", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "/{pattern}[/[offset]]<CR>"
+    }, 
+    {
+        "name": "Search backward", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "?{pattern}[?[offset]]<CR>"
+    }, 
+    {
+        "name": "Repeat last search, forward", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "/<CR>"
+    }, 
+    {
+        "name": "Repeat last search, backward", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "?<CR>"
+    }, 
+    {
+        "name": "Repeat last search", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "n"
+    }, 
+    {
+        "name": "Repeat last search, opposite", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "N"
+    }, 
+    {
+        "name": "Search forward for the ident under the cursor", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "*"
+    }, 
+    {
+        "name": "Search backward for the ident under the cursor", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "#"
+    }, 
+    {
+        "name": "Search forward for the ident under the cursor", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "g*"
+    }, 
+    {
+        "name": "Search backward for the ident under the cursor", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "g#"
+    }, 
+    {
+        "name": "Goto local declaration of ident under the cursor", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "gd"
+    }, 
+    {
+        "name": "Goto global declaration of ident under the cursor", 
+        "section": "VIM", 
+        "subsection": "Search", 
+        "value": "gD"
+    }, 
+    {
+        "name": "Go to the next brace, bracket, comment", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "%"
+    }, 
+    {
+        "name": "Go to the Nth line in the window", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "H"
+    }, 
+    {
+        "name": "Go to the middle line in the window", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "M"
+    }, 
+    {
+        "name": "Go to the Nth line from the bottom", 
+        "section": "VIM", 
+        "subsection": "Movement", 
+        "value": "L"
+    }, 
+    {
+        "name": "Append text after the cursor", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "a"
+    }, 
+    {
+        "name": "Append text at the end of the line", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "A"
+    }, 
+    {
+        "name": "Insert text before the cursor", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "i"
+    }, 
+    {
+        "name": "Insert text before the first non-blank", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "I"
+    }, 
+    {
+        "name": "Insert text in column 1", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "gI"
+    }, 
+    {
+        "name": "Open a new line below the current line", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "o"
+    }, 
+    {
+        "name": "Open a new line above the current line", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "O"
+    }, 
+    {
+        "name": "end insert mode, back to command mode", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "<Esc>"
+    }, 
+    {
+        "name": "like <Esc>, but do not do an abbreviation", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-C"
+    }, 
+    {
+        "name": "insert previously inserted text", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-A"
+    }, 
+    {
+        "name": "insert previously inserted text and stop insert", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-@"
+    }, 
+    {
+        "name": "insert contents of register <0-9a-z%:>", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-R <0-9a-z%:>"
+    }, 
+    {
+        "name": "begin new line", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "<NL> or <CR> or CTRL-M or CTRL-J"
+    }, 
+    {
+        "name": "insert the character from below the cursor", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-E"
+    }, 
+    {
+        "name": "insert the character from above the cursor", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-Y"
+    }, 
+    {
+        "name": "insert character literally, or enter decimal byte value", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-V"
+    }, 
+    {
+        "name": "insert next match of identifier before the cursor", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-N"
+    }, 
+    {
+        "name": "insert previous match of identifier before the cursor", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-P"
+    }, 
+    {
+        "name": "complete the word before the cursor in one or another way", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-X ..."
+    }, 
+    {
+        "name": "delete the character before the cursor", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "<BS> or CTRL-H"
+    }, 
+    {
+        "name": "delete the character under the cursor", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "<Del>"
+    }, 
+    {
+        "name": "delete word before the cursor", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-W"
+    }, 
+    {
+        "name": "delete all entered characters in the current line", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-U"
+    }, 
+    {
+        "name": "insert one shiftwidth of indent in front of the current line", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-T"
+    }, 
+    {
+        "name": "delete one shiftwidth of indent in front of the current line", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-D"
+    }, 
+    {
+        "name": "delete all indent in the current line", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "0_CTRL-D"
+    }, 
+    {
+        "name": "delete all indent in the current line, restore indent in next line", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "^_CTRL-D"
+    }, 
+    {
+        "name": "Enter digraph", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-K {char1} {char2}"
+    }, 
+    {
+        "name": "Toggle reverse insert", 
+        "section": "VIM", 
+        "subsection": "Insert", 
+        "value": "CTRL-B"
+    }, 
+    {
+        "name": "Insert the contents of a file", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": ":r [file]"
+    }, 
+    {
+        "name": "Insert the standard output of a command", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": ":r! {command}"
+    }, 
+    {
+        "name": "delete N characters under and after the cursor", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": "x"
+    }, 
+    {
+        "name": "delete N characters under and after the cursor", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": "<Del>"
+    }, 
+    {
+        "name": "delete N characters before the cursor", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": "X"
+    }, 
+    {
+        "name": "delete the text that is moved over with {motion}", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": "d {motion}"
+    }, 
+    {
+        "name": "delete the highlighted text", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": "{visual}d"
+    }, 
+    {
+        "name": "delete N lines", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": "dd"
+    }, 
+    {
+        "name": "delete to end of line (and N-1 more lines)", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": "D"
+    }, 
+    {
+        "name": "join N-1 lines (delete newlines)", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": "J"
+    }, 
+    {
+        "name": "join the highlighted lines", 
+        "section": "VIM", 
+        "subsection": "Delete", 
+        "value": "{visual}J"
+    }, 
+    {
+        "name": "Yank the text", 
+        "section": "VIM", 
+        "subsection": "Copy/Paste", 
+        "value": "y {motion}"
+    }, 
+    {
+        "name": "Yank the highlighted text", 
+        "section": "VIM", 
+        "subsection": "Copy/Paste", 
+        "value": "{visual}y"
+    }, 
+    {
+        "name": "Yank N lines", 
+        "section": "VIM", 
+        "subsection": "Copy/Paste", 
+        "value": "yy"
+    }, 
+    {
+        "name": "Yank N lines", 
+        "section": "VIM", 
+        "subsection": "Copy/Paste", 
+        "value": "Y"
+    }, 
+    {
+        "name": "Paste after the cursor position", 
+        "section": "VIM", 
+        "subsection": "Copy/Paste", 
+        "value": "p"
+    }, 
+    {
+        "name": "Paste before the cursor position", 
+        "section": "VIM", 
+        "subsection": "Copy/Paste", 
+        "value": "P"
+    }, 
+    {
+        "name": "Paste after and adjust indent", 
+        "section": "VIM", 
+        "subsection": "Copy/Paste", 
+        "value": "]p"
+    }, 
+    {
+        "name": "Paste before and adjust indent", 
+        "section": "VIM", 
+        "subsection": "Copy/Paste", 
+        "value": "[p"
+    }, 
+    {
+        "name": "Enter replace mode", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "R"
+    }, 
+    {
+        "name": "Change the text", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "c{motion}"
+    }, 
+    {
+        "name": "Change the highlighted text", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "{visual}c"
+    }, 
+    {
+        "name": "Change N lines", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "S"
+    }, 
+    {
+        "name": "Change to end of line", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "C"
+    }, 
+    {
+        "name": "Change characters", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "s"
+    }, 
+    {
+        "name": "Replace characters with <char>", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "r<char>"
+    }, 
+    {
+        "name": "Switch case", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "~"
+    }, 
+    {
+        "name": "Switch case for highlighted text", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "{visual}~"
+    }, 
+    {
+        "name": "Highlighted text lowercase", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "{visual}u"
+    }, 
+    {
+        "name": "Highlighted text uppercase", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "{visual}U"
+    }, 
+    {
+        "name": "Switch case", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "g~{motion}"
+    }, 
+    {
+        "name": "Make Lowercase", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "gu"
+    }, 
+    {
+        "name": "Make Uppercase", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "gU"
+    }, 
+    {
+        "name": "Add", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "CTRL-A"
+    }, 
+    {
+        "name": "Substract", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "CTRL-X"
+    }, 
+    {
+        "name": "Move lines one shiftwidth left", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "<<"
+    }, 
+    {
+        "name": "Move lines one shiftwidth right", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": ">>"
+    }, 
+    {
+        "name": "Format lines", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": "Q {motion}"
+    }, 
+    {
+        "name": "Align Left", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": ":le"
+    }, 
+    {
+        "name": "Align Center", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": ":ce"
+    }, 
+    {
+        "name": "Align Right", 
+        "section": "VIM", 
+        "subsection": "Replace", 
+        "value": ":ri"
+    }, 
+    {
+        "name": "Clear and redraw the screen.", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": "CTRL-L"
+    }, 
+    {
+        "name": "Show path and cursor position", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": "CTRL-G"
+    }, 
+    {
+        "name": "Show ascii value of character", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": "ga"
+    }, 
+    {
+        "name": "Show cursor column, line and character position", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": "g CTRL-G"
+    }, 
+    {
+        "name": "Interrupt the search", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": "CTRL-C"
+    }, 
+    {
+        "name": "Delete last character", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": "<Del>"
+    }, 
+    {
+        "name": "Version", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": ":ve[rsion]"
+    }, 
+    {
+        "name": "Set screen mode to N", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": ":mode N"
+    }, 
+    {
+        "name": "Execute normal mode commands", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": ":norm[al][!] {commands}"
+    }, 
+    {
+        "name": "Start a shell", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": ":sh[ell]"
+    }, 
+    {
+        "name": "Execute {command} with a shell", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": ":! {command}"
+    }, 
+    {
+        "name": "Show Digraphs", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": ":dig"
+    }, 
+    {
+        "name": "Start highlighting characters", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "v"
+    }, 
+    {
+        "name": "Start highlighting linewise", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "V"
+    }, 
+    {
+        "name": "Start highlighting blockwise", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "CTRL-V"
+    }, 
+    {
+        "name": "Exchange cursor position", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "o"
+    }, 
+    {
+        "name": "Start highlighting on previous visual area", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "gv"
+    }, 
+    {
+        "name": "Select current word", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "a"
+    }, 
+    {
+        "name": "Select current WORD", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "A"
+    }, 
+    {
+        "name": "Select current sentence", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "s"
+    }, 
+    {
+        "name": "Select current paragraph", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "p"
+    }, 
+    {
+        "name": "Select current block (from \"[(\" to \"])\")", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "S"
+    }, 
+    {
+        "name": "Select current block (from \"[{\" to \"]}\")", 
+        "section": "VIM", 
+        "subsection": "Visual Mode", 
+        "value": "P"
+    }, 
+    {
+        "name": "Move to beginning of line.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "C-a"
+    }, 
+    {
+        "name": "Move to end of line.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "C-e"
+    }, 
+    {
+        "name": "Move forward one character.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "C-f"
+    }, 
+    {
+        "name": "Move backward one character.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "C-b"
+    }, 
+    {
+        "name": "Move forward one word.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M-f"
+    }, 
+    {
+        "name": "Move backward one word.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M-b"
+    }, 
+    {
+        "name": "Move down a line", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "C-n"
+    }, 
+    {
+        "name": "Move up a line.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "C-p"
+    }, 
+    {
+        "name": "Move to left margin, vertically centered in window.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M-r"
+    }, 
+    {
+        "name": "Move to top of buffer.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M-<"
+    }, 
+    {
+        "name": "Move to end of buffer.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M->"
+    }, 
+    {
+        "name": "Read a number and go to that buffer position", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M-x goto-char"
+    }, 
+    {
+        "name": "Read a number and go to that line", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M-x goto-line"
+    }, 
+    {
+        "name": "Set current column as 'goal column'.", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "C-x C-n"
+    }, 
+    {
+        "name": "Cancel the 'goal column'", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "C-u C-x C-n"
+    }, 
+    {
+        "name": "Display page number and line number", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M-x what-page"
+    }, 
+    {
+        "name": "Display line number", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M-x what-line"
+    }, 
+    {
+        "name": "Display line number automatically", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M-x line-number-mode"
+    }, 
+    {
+        "name": "Print number of lines in current region", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "M-="
+    }, 
+    {
+        "name": "Print character code, character position and column", 
+        "section": "EMACS", 
+        "subsection": "Movement", 
+        "value": "C-x ="
+    }, 
+    {
+        "name": "Beginning-of-line", 
+        "section": "EMACS", 
+        "subsection": "Lines", 
+        "value": "C-a"
+    }, 
+    {
+        "name": "End-of-line", 
+        "section": "EMACS", 
+        "subsection": "Lines", 
+        "value": "C-e"
+    }, 
+    {
+        "name": "Next-line", 
+        "section": "EMACS", 
+        "subsection": "Lines", 
+        "value": "C-n"
+    }, 
+    {
+        "name": "Previous-line", 
+        "section": "EMACS", 
+        "subsection": "Lines", 
+        "value": "C-p"
+    }, 
+    {
+        "name": "Kill-line", 
+        "section": "EMACS", 
+        "subsection": "Lines", 
+        "value": "C-k"
+    }, 
+    {
+        "name": "Open-line", 
+        "section": "EMACS", 
+        "subsection": "Lines", 
+        "value": "C-o"
+    }, 
+    {
+        "name": "Forward-word", 
+        "section": "EMACS", 
+        "subsection": "Words", 
+        "value": "ESC f"
+    }, 
+    {
+        "name": "Backward-word", 
+        "section": "EMACS", 
+        "subsection": "Words", 
+        "value": "ESC b"
+    }, 
+    {
+        "name": "Kill-word", 
+        "section": "EMACS", 
+        "subsection": "Words", 
+        "value": "ESC d"
+    }, 
+    {
+        "name": "Backward-kill-word", 
+        "section": "EMACS", 
+        "subsection": "Words", 
+        "value": "ESC DEL"
+    }, 
+    {
+        "name": "Forward-char", 
+        "section": "EMACS", 
+        "subsection": "Chars", 
+        "value": "C-f"
+    }, 
+    {
+        "name": "Backward-char", 
+        "section": "EMACS", 
+        "subsection": "Chars", 
+        "value": "C-b"
+    }, 
+    {
+        "name": "Delete-char", 
+        "section": "EMACS", 
+        "subsection": "Chars", 
+        "value": "C-d"
+    }, 
+    {
+        "name": "Delete-backward-char", 
+        "section": "EMACS", 
+        "subsection": "Chars", 
+        "value": "DEL"
+    }, 
+    {
+        "name": "Quoted-insert", 
+        "section": "EMACS", 
+        "subsection": "Chars", 
+        "value": "C-q"
+    }, 
+    {
+        "name": "Transpose-chars", 
+        "section": "EMACS", 
+        "subsection": "Chars", 
+        "value": "C-t"
+    }, 
+    {
+        "name": "Set-mark-command", 
+        "section": "EMACS", 
+        "subsection": "Regions", 
+        "value": "C-@"
+    }, 
+    {
+        "name": "Kill-region", 
+        "section": "EMACS", 
+        "subsection": "Regions", 
+        "value": "C-w"
+    }, 
+    {
+        "name": "Yank", 
+        "section": "EMACS", 
+        "subsection": "Regions", 
+        "value": "C-y"
+    }, 
+    {
+        "name": "Recenter", 
+        "section": "EMACS", 
+        "subsection": "Screen", 
+        "value": "C-l"
+    }, 
+    {
+        "name": "Scroll-up (forward)", 
+        "section": "EMACS", 
+        "subsection": "Screen", 
+        "value": "C-v"
+    }, 
+    {
+        "name": "Scroll-down (backward)", 
+        "section": "EMACS", 
+        "subsection": "Screen", 
+        "value": "ESC-v"
+    }, 
+    {
+        "name": "Beginning-of-buffer", 
+        "section": "EMACS", 
+        "subsection": "Screen", 
+        "value": "ESC <"
+    }, 
+    {
+        "name": "End-of-buffer", 
+        "section": "EMACS", 
+        "subsection": "Screen", 
+        "value": "ESC >"
+    }, 
+    {
+        "name": "Isearch-forward", 
+        "section": "EMACS", 
+        "subsection": "Search", 
+        "value": "C-s"
+    }, 
+    {
+        "name": "Isearch-backward", 
+        "section": "EMACS", 
+        "subsection": "Search", 
+        "value": "C-r"
+    }, 
+    {
+        "name": "Find-file", 
+        "section": "EMACS", 
+        "subsection": "Files", 
+        "value": "C-x C-f"
+    }, 
+    {
+        "name": "Find-file-read-only", 
+        "section": "EMACS", 
+        "subsection": "Files", 
+        "value": "C-x C-r"
+    }, 
+    {
+        "name": "Write-file", 
+        "section": "EMACS", 
+        "subsection": "Files", 
+        "value": "C-x C-w"
+    }, 
+    {
+        "name": "Delete-other-windows", 
+        "section": "EMACS", 
+        "subsection": "Windows", 
+        "value": "C-x 1"
+    }, 
+    {
+        "name": "Split-window-vertically", 
+        "section": "EMACS", 
+        "subsection": "Windows", 
+        "value": "C-x 2"
+    }, 
+    {
+        "name": "Find-file-other-window", 
+        "section": "EMACS", 
+        "subsection": "Windows", 
+        "value": "C-x 4 f"
+    }, 
+    {
+        "name": "Other-window", 
+        "section": "EMACS", 
+        "subsection": "Windows", 
+        "value": "C-x o"
+    }, 
+    {
+        "name": "Shell-command", 
+        "section": "EMACS", 
+        "subsection": "Misc", 
+        "value": "ESC !"
+    }, 
+    {
+        "name": "Compile (\"make -k\" is default)", 
+        "section": "EMACS", 
+        "subsection": "Misc", 
+        "value": "ESC x compile"
+    }, 
+    {
+        "name": "Next-error", 
+        "section": "EMACS", 
+        "subsection": "Misc", 
+        "value": "C-x `"
+    }, 
+    {
+        "name": "Save-buffers-kill-emacs", 
+        "section": "EMACS", 
+        "subsection": "Misc", 
+        "value": "C-x C-c"
+    }, 
+    {
+        "name": "Universal-argument", 
+        "section": "EMACS", 
+        "subsection": "Misc", 
+        "value": "C-u"
+    }, 
+    {
+        "name": "Suspend-emacs", 
+        "section": "EMACS", 
+        "subsection": "Misc", 
+        "value": "C-x C-z"
+    }, 
+    {
+        "name": "Keyboard-quit", 
+        "section": "EMACS", 
+        "subsection": "Misc", 
+        "value": "C-g"
+    }, 
+    {
+        "name": "Help-command", 
+        "section": "EMACS", 
+        "subsection": "Misc", 
+        "value": "C-h"
+    }, 
+    {
+        "name": "Help-with-tutorial", 
+        "section": "EMACS", 
+        "subsection": "Misc", 
+        "value": "C-h t"
+    }, 
+    {
+        "name": "Describe-bindings", 
+        "section": "EMACS", 
+        "subsection": "Misc", 
+        "value": "C-h b"
+    }, 
+    {
+        "name": "Show open ports (lsof)", 
+        "section": "Linux", 
+        "subsection": "Advanced", 
+        "value": "sudo lsof -Pni4 | grep LISTEN"
+    }, 
+    {
+        "name": "Kill orphan console", 
+        "section": "Linux", 
+        "subsection": "Advanced", 
+        "value": "skill -KILL -t ttyS0"
+    }, 
+    {
+        "name": "Supported memory", 
+        "section": "Linux", 
+        "subsection": "Medium", 
+        "value": "sudo dmidecode -t 5,15"
+    }, 
+    {
+        "name": "List locales", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "locale -a"
+    }, 
+    {
+        "name": "Generate MO file", 
+        "section": "Linux", 
+        "subsection": "Programming", 
+        "value": "msgfmt foo.po"
+    }, 
+    {
+        "name": "Merge PO and POT files", 
+        "section": "Linux", 
+        "subsection": "Programming", 
+        "value": "msgmerge -U es.po mcm.pot"
+    }, 
+    {
+        "name": "Restart", 
+        "section": "MyTips", 
+        "subsection": "JBoss", 
+        "value": "./shutdown.sh -s jnp://ip:port -H 10"
+    }, 
+    {
+        "name": "Open in Tabs", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": "vim -p foo bar"
+    }, 
+    {
+        "name": "Open in Vertical Split", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": "vim -O foo bar"
+    }, 
+    {
+        "name": "Open in Horizontal Split", 
+        "section": "VIM", 
+        "subsection": "Commands", 
+        "value": "vim -o foo bar"
+    }, 
+    {
+        "name": "Open a port and print received data", 
+        "section": "Linux", 
+        "subsection": "Advanced", 
+        "value": "nc -l -p"
+    }, 
+    {
+        "name": "Last char from string", 
+        "section": "Bash", 
+        "subsection": "Parameter Expansion", 
+        "value": "${x#${x%?}}"
+    }, 
+    {
+        "name": "Show current distro", 
+        "section": "Linux", 
+        "subsection": "Basics", 
+        "value": "cat /etc/*-release"
+    }, 
+    {
+        "name": "rsync", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "873"
+    }, 
+    {
+        "name": "tcpmux", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "1"
+    }, 
+    {
+        "name": "echo", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "7"
+    }, 
+    {
+        "name": "echo", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "7"
+    }, 
+    {
+        "name": "discard", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "9"
+    }, 
+    {
+        "name": "discard", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "9"
+    }, 
+    {
+        "name": "systat", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "11"
+    }, 
+    {
+        "name": "daytime", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "13"
+    }, 
+    {
+        "name": "daytime", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "13"
+    }, 
+    {
+        "name": "netstat", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "15"
+    }, 
+    {
+        "name": "qotd", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "17"
+    }, 
+    {
+        "name": "msp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "18"
+    }, 
+    {
+        "name": "msp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "18"
+    }, 
+    {
+        "name": "chargen", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "19"
+    }, 
+    {
+        "name": "chargen", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "19"
+    }, 
+    {
+        "name": "ftp-data", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "20"
+    }, 
+    {
+        "name": "ftp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "21"
+    }, 
+    {
+        "name": "fsp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "21"
+    }, 
+    {
+        "name": "ssh", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "22"
+    }, 
+    {
+        "name": "ssh", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "22"
+    }, 
+    {
+        "name": "telnet", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "23"
+    }, 
+    {
+        "name": "smtp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "25"
+    }, 
+    {
+        "name": "time", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "37"
+    }, 
+    {
+        "name": "time", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "37"
+    }, 
+    {
+        "name": "rlp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "39"
+    }, 
+    {
+        "name": "nameserver", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "42"
+    }, 
+    {
+        "name": "whois", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "43"
+    }, 
+    {
+        "name": "tacacs", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "49"
+    }, 
+    {
+        "name": "tacacs", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "49"
+    }, 
+    {
+        "name": "re-mail-ck", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "50"
+    }, 
+    {
+        "name": "re-mail-ck", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "50"
+    }, 
+    {
+        "name": "domain", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "53"
+    }, 
+    {
+        "name": "domain", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "53"
+    }, 
+    {
+        "name": "mtp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "57"
+    }, 
+    {
+        "name": "tacacs-ds", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "65"
+    }, 
+    {
+        "name": "tacacs-ds", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "65"
+    }, 
+    {
+        "name": "bootps", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "67"
+    }, 
+    {
+        "name": "bootps", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "67"
+    }, 
+    {
+        "name": "bootpc", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "68"
+    }, 
+    {
+        "name": "bootpc", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "68"
+    }, 
+    {
+        "name": "tftp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "69"
+    }, 
+    {
+        "name": "gopher", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "70"
+    }, 
+    {
+        "name": "gopher", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "70"
+    }, 
+    {
+        "name": "rje", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "77"
+    }, 
+    {
+        "name": "finger", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "79"
+    }, 
+    {
+        "name": "www", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "80"
+    }, 
+    {
+        "name": "www", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "80"
+    }, 
+    {
+        "name": "link", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "87"
+    }, 
+    {
+        "name": "kerberos", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "88"
+    }, 
+    {
+        "name": "kerberos", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "88"
+    }, 
+    {
+        "name": "supdup", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "95"
+    }, 
+    {
+        "name": "hostnames", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "101"
+    }, 
+    {
+        "name": "iso-tsap", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "102"
+    }, 
+    {
+        "name": "acr-nema", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "104"
+    }, 
+    {
+        "name": "acr-nema", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "104"
+    }, 
+    {
+        "name": "csnet-ns", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "105"
+    }, 
+    {
+        "name": "csnet-ns", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "105"
+    }, 
+    {
+        "name": "rtelnet", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "107"
+    }, 
+    {
+        "name": "rtelnet", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "107"
+    }, 
+    {
+        "name": "pop2", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "109"
+    }, 
+    {
+        "name": "pop2", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "109"
+    }, 
+    {
+        "name": "pop3", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "110"
+    }, 
+    {
+        "name": "pop3", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "110"
+    }, 
+    {
+        "name": "sunrpc", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "111"
+    }, 
+    {
+        "name": "sunrpc", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "111"
+    }, 
+    {
+        "name": "auth", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "113"
+    }, 
+    {
+        "name": "sftp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "115"
+    }, 
+    {
+        "name": "uucp-path", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "117"
+    }, 
+    {
+        "name": "nntp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "119"
+    }, 
+    {
+        "name": "ntp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "123"
+    }, 
+    {
+        "name": "ntp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "123"
+    }, 
+    {
+        "name": "pwdgen", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "129"
+    }, 
+    {
+        "name": "pwdgen", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "129"
+    }, 
+    {
+        "name": "loc-srv", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "135"
+    }, 
+    {
+        "name": "loc-srv", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "135"
+    }, 
+    {
+        "name": "netbios-ns", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "137"
+    }, 
+    {
+        "name": "netbios-ns", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "137"
+    }, 
+    {
+        "name": "netbios-dgm", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "138"
+    }, 
+    {
+        "name": "netbios-dgm", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "138"
+    }, 
+    {
+        "name": "netbios-ssn", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "139"
+    }, 
+    {
+        "name": "netbios-ssn", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "139"
+    }, 
+    {
+        "name": "imap2", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "143"
+    }, 
+    {
+        "name": "imap2", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "143"
+    }, 
+    {
+        "name": "snmp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "161"
+    }, 
+    {
+        "name": "snmp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "161"
+    }, 
+    {
+        "name": "snmp-trap", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "162"
+    }, 
+    {
+        "name": "snmp-trap", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "162"
+    }, 
+    {
+        "name": "cmip-man", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "163"
+    }, 
+    {
+        "name": "cmip-man", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "163"
+    }, 
+    {
+        "name": "cmip-agent", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "164"
+    }, 
+    {
+        "name": "cmip-agent", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "164"
+    }, 
+    {
+        "name": "mailq", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "174"
+    }, 
+    {
+        "name": "mailq", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "174"
+    }, 
+    {
+        "name": "xdmcp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "177"
+    }, 
+    {
+        "name": "xdmcp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "177"
+    }, 
+    {
+        "name": "nextstep", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "178"
+    }, 
+    {
+        "name": "nextstep", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "178"
+    }, 
+    {
+        "name": "bgp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "179"
+    }, 
+    {
+        "name": "bgp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "179"
+    }, 
+    {
+        "name": "prospero", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "191"
+    }, 
+    {
+        "name": "prospero", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "191"
+    }, 
+    {
+        "name": "irc", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "194"
+    }, 
+    {
+        "name": "irc", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "194"
+    }, 
+    {
+        "name": "smux", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "199"
+    }, 
+    {
+        "name": "smux", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "199"
+    }, 
+    {
+        "name": "at-rtmp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "201"
+    }, 
+    {
+        "name": "at-rtmp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "201"
+    }, 
+    {
+        "name": "at-nbp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "202"
+    }, 
+    {
+        "name": "at-nbp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "202"
+    }, 
+    {
+        "name": "at-echo", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "204"
+    }, 
+    {
+        "name": "at-echo", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "204"
+    }, 
+    {
+        "name": "at-zis", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "206"
+    }, 
+    {
+        "name": "at-zis", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "206"
+    }, 
+    {
+        "name": "qmtp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "209"
+    }, 
+    {
+        "name": "qmtp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "209"
+    }, 
+    {
+        "name": "z3950", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "210"
+    }, 
+    {
+        "name": "z3950", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "210"
+    }, 
+    {
+        "name": "ipx", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "213"
+    }, 
+    {
+        "name": "ipx", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "213"
+    }, 
+    {
+        "name": "imap3", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "220"
+    }, 
+    {
+        "name": "imap3", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "220"
+    }, 
+    {
+        "name": "pawserv", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "345"
+    }, 
+    {
+        "name": "pawserv", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "345"
+    }, 
+    {
+        "name": "zserv", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "346"
+    }, 
+    {
+        "name": "zserv", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "346"
+    }, 
+    {
+        "name": "fatserv", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "347"
+    }, 
+    {
+        "name": "fatserv", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "347"
+    }, 
+    {
+        "name": "rpc2portmap", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "369"
+    }, 
+    {
+        "name": "rpc2portmap", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "369"
+    }, 
+    {
+        "name": "codaauth2", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "370"
+    }, 
+    {
+        "name": "codaauth2", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "370"
+    }, 
+    {
+        "name": "clearcase", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "371"
+    }, 
+    {
+        "name": "clearcase", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "371"
+    }, 
+    {
+        "name": "ulistserv", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "372"
+    }, 
+    {
+        "name": "ulistserv", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "372"
+    }, 
+    {
+        "name": "ldap", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "389"
+    }, 
+    {
+        "name": "ldap", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "389"
+    }, 
+    {
+        "name": "imsp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "406"
+    }, 
+    {
+        "name": "imsp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "406"
+    }, 
+    {
+        "name": "https", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "443"
+    }, 
+    {
+        "name": "https", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "443"
+    }, 
+    {
+        "name": "snpp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "444"
+    }, 
+    {
+        "name": "snpp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "444"
+    }, 
+    {
+        "name": "microsoft-ds", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "445"
+    }, 
+    {
+        "name": "microsoft-ds", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "445"
+    }, 
+    {
+        "name": "kpasswd", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "464"
+    }, 
+    {
+        "name": "kpasswd", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "464"
+    }, 
+    {
+        "name": "saft", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "487"
+    }, 
+    {
+        "name": "saft", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "487"
+    }, 
+    {
+        "name": "isakmp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "500"
+    }, 
+    {
+        "name": "isakmp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "500"
+    }, 
+    {
+        "name": "rtsp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "554"
+    }, 
+    {
+        "name": "rtsp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "554"
+    }, 
+    {
+        "name": "nqs", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "607"
+    }, 
+    {
+        "name": "nqs", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "607"
+    }, 
+    {
+        "name": "npmp-local", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "610"
+    }, 
+    {
+        "name": "npmp-local", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "610"
+    }, 
+    {
+        "name": "npmp-gui", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "611"
+    }, 
+    {
+        "name": "npmp-gui", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "611"
+    }, 
+    {
+        "name": "hmmp-ind", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "612"
+    }, 
+    {
+        "name": "hmmp-ind", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "612"
+    }, 
+    {
+        "name": "qmqp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "628"
+    }, 
+    {
+        "name": "qmqp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "628"
+    }, 
+    {
+        "name": "ipp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "631"
+    }, 
+    {
+        "name": "ipp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "631"
+    }, 
+    {
+        "name": "exec", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "512"
+    }, 
+    {
+        "name": "biff", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "512"
+    }, 
+    {
+        "name": "login", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "513"
+    }, 
+    {
+        "name": "who", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "513"
+    }, 
+    {
+        "name": "shell", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "514"
+    }, 
+    {
+        "name": "syslog", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "514"
+    }, 
+    {
+        "name": "printer", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "515"
+    }, 
+    {
+        "name": "talk", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "517"
+    }, 
+    {
+        "name": "ntalk", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "518"
+    }, 
+    {
+        "name": "route", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "520"
+    }, 
+    {
+        "name": "timed", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "525"
+    }, 
+    {
+        "name": "tempo", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "526"
+    }, 
+    {
+        "name": "courier", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "530"
+    }, 
+    {
+        "name": "conference", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "531"
+    }, 
+    {
+        "name": "netnews", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "532"
+    }, 
+    {
+        "name": "netwall", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "533"
+    }, 
+    {
+        "name": "gdomap", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "538"
+    }, 
+    {
+        "name": "gdomap", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "538"
+    }, 
+    {
+        "name": "uucp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "540"
+    }, 
+    {
+        "name": "klogin", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "543"
+    }, 
+    {
+        "name": "kshell", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "544"
+    }, 
+    {
+        "name": "afpovertcp", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "548"
+    }, 
+    {
+        "name": "afpovertcp", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "548"
+    }, 
+    {
+        "name": "remotefs", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "556"
+    }, 
+    {
+        "name": "nntps", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "563"
+    }, 
+    {
+        "name": "nntps", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "563"
+    }, 
+    {
+        "name": "submission", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "587"
+    }, 
+    {
+        "name": "submission", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "587"
+    }, 
+    {
+        "name": "ldaps", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "636"
+    }, 
+    {
+        "name": "ldaps", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "636"
+    }, 
+    {
+        "name": "tinc", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "655"
+    }, 
+    {
+        "name": "tinc", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "655"
+    }, 
+    {
+        "name": "silc", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "706"
+    }, 
+    {
+        "name": "silc", 
+        "section": "Linux", 
+        "subsection": "Ports UDP", 
+        "value": "706"
+    }, 
+    {
+        "name": "kerberos-adm", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "749"
+    }, 
+    {
+        "name": "webster", 
+        "section": "Linux", 
+        "subsection": "Ports TCP", 
+        "value": "765"
+    }
+]

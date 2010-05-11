@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+echo "1/2 Creating symlinks"
+ln -fs /usr/share/apps/mcm/bin/mcm /usr/bin/mcm
+ln -fs /usr/share/apps/mcm/bin/mcm /usr/bin/mcm-gtk
+
+echo "2/2 Creating menu-entry for Monocaffe Connections Manager"
+cp /usr/share/apps/mcm/gtk/mcm_icon.xpm /usr/share/pixmaps/mcm.xpm
+cp /usr/share/apps/mcm/gtk/mcm.desktop /usr/share/applications/

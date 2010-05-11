@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=MCM
+Comment=Monocaffe Connections Manager
+Exec=/usr/bin/mcm-gtk
+Icon=mcm
+Terminal=false
+Type=Application
+Categories=Application;GTK;Network;

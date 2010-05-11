@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="mcm">
+    <xs:complexType>
+      <xs:sequence>
+       <xs:element name="connections">
+        <xs:complexType>
+         <xs:sequence>
+          <xs:element name="connection" minOccurs="0" maxOccurs="unbounded">
+           <xs:complexType>
+            <xs:sequence>
+             <xs:element name="id" type="xs:nonNegativeInteger"/>
+             <xs:element name="alias" type="xs:string"/>
+             <xs:element name="user" type="xs:string"/>
+             <xs:element name="host" type="xs:string"/>
+             <xs:element name="port" type="xs:nonNegativeInteger"/>
+             <xs:element name="password" type="xs:string"/>
+             <xs:element name="description" type="xs:string"/>
+             <xs:element name="options" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="protocol" type="xs:string"/>
+           </xs:complexType>
+          </xs:element>
+         </xs:sequence>
+        </xs:complexType>
+       </xs:element>
+        <xs:element name="clients" minOccurs="0" maxOccurs="unbounded">
+         <xs:complexType>
+          <xs:sequence>
+           <xs:element name="client" minOccurs="0" maxOccurs="unbounded">
+            <xs:complexType>
+             <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="protocol" type="xs:string"/>
+              <xs:element name="path" type="xs:string"/>
+              <xs:element name="options" type="xs:string" minOccurs="0"/>
+             </xs:sequence>
+            </xs:complexType>
+           </xs:element>
+          </xs:sequence>
+         </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

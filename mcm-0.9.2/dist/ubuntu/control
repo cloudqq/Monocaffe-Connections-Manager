@@ -1,0 +1,19 @@
+Source: mcm
+Section: net
+Priority: optional
+Maintainer: Alejandro Ayuso <alejandroayuso@gmail.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.1
+Homepage: http://sites.google.com/site/monocaffe/home/mcm
+
+Package: mcm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, dialog, lftp, openssh-client, vncviewer, rdesktop, python (>= 2.5.0), python-gtk2
+Description: Manage your connections to different servers
+ The GNOME version of Monocaffe Connections Manager works as a 
+ replacement of the default gnome-terminal enhancing it. You've 
+ got tabs, console customization and the ability to connect 
+ to all your servers with one click. Also, by checking different 
+ tabs and using the clustered entry at the bottom, everything 
+ you write there is written in all the consoles checked. 
+ This way you can work on several servers at once.

@@ -1,0 +1,48 @@
+mcm (0.9.2-0ubuntu1) karmic; urgency=low
+
+  * Bug Fixes Release:
+    #539442     Remove StatusIcon
+    #559256     Allow SSH Commands
+    #528512     Close Tab with Ctrl+w
+    #544077     Disable ctrl + q 
+    #544078     Right click menu in active window appears in Spanish
+    #558424     Notebook Select Tab SubMenu
+
+  * Added Spanish and German Translations.
+  * More tips
+
+ -- Alejandro Ayuso <alejandroayuso@gmail.com>  Mon Apr 9 21:25:09 CET 2010
+
+mcm (0.9.1-0ubuntu1) karmic; urgency=low
+ 
+  * Bug fixes for last Beta.
+  * Bugs Fixed:
+    #522037     Keyboard shortcuts for PgUp PgDown
+    #519338     PEP8 Compliance
+    #519284     Use XDG For Application and User data
+    #523007     F10 key
+    #519211     New tips dialog repeats itself
+    #517684     Export/Import events not working
+    #516002     Tips update
+
+ -- Alejandro Ayuso <alejandroayuso@gmail.com>  Mon Feb 22 10:17:33 CET 2010
+
+mcm (0.9-0ubuntu1) karmic; urgency=low
+
+  * This is the last Beta Release. Some minor versions may continue
+  * Bugs Fixed:
+    #513183  	Consoles Buffer Size   	     	 3  Medium
+    #515288 	Fix failure load of configuration
+    #495432 	Export to CSV to None 		4 Low
+    #512281 	Expand controls with connections tree
+    #488726 	Quick Reference Widget 	  	5 Wishlist
+    #507051 	the app crashes when you try to conect
+    #489715 	Console colors getting mixed
+
+ -- Alejandro Ayuso <alejandroayuso@gmail.com>  Thu, Feb  4 00:41:01 CET 2010
+
+mcm (0.8-0ubuntu1) karmic; urgency=low
+
+  * Initial release
+
+ -- Alejandro Ayuso <alejandroayuso@gmail.com>  Thu, 10 Dec 2009 10:45:06 +0100

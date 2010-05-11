@@ -1,0 +1,473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mcm 0.9\n"
+"POT-Creation-Date: 2010-02-12 18:31:52.889487\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: utf-8\n"
+"Generated-By: common/generate_pot.py\n"
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "New Tip"
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid ""
+"<b>Monocaffe Connections Manager</b>\n"
+"New Tip Reference\n"
+""
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "<b>Section:</b>"
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "<b>Subsection:</b>"
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "<b>Title:</b>"
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "<b>Command:</b>"
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "<b>Send to the World:</b>"
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "<i>MyTips</i>"
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "If you agree, a HTML POST with this tip (no personal data) is sent so we can gather and release more and more tips. More information on the Help Button Bellow."
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "<b>Send Tip To the World</b>"
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid ""
+"If you select the option to send to the world, your tip will be sent to a Google Docs Spreadsheet using an online form. No personal information is sent, only the one you fill on the previous dialog. \n"
+"This Form is online, and the results spreadsheet is public for everyone to see. \n"
+"If you still feel the need to check on this go to the file \"common/utils.py\" and there is a class called \"GoogleForm\" where all this process happens."
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "Online Google Form"
+msgstr ""
+
+#. file 'mcm/gtk/tips.glade', line ?
+msgid "Online Google Docs Spreadsheet"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Monocaffe Connections Manager"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "_File"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "_Import"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Import from CSV"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line 56
+msgid "Export HTML"
+msgstr "Exportar HTML"
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Export CSV"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "_View"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Connections"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Show/Hide The Cluster Entry"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Cluster"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Show/Hide the Tips"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Tips"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "_Connections"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Connect to the selected server"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Open a Terminal on local"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Add a new connection"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Delete the selected connection"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "_Help"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Update Tips"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Download the latest version of the tips file."
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "hidden"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Connections</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b></b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Username</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Hostname/IP Address</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Port</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Options</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Description</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Password</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>SERVER</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Start"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "page 2"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Welcome"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Cluster Entry. Mark the tabs you want to interact with."
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "About MCM"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Copyright (C) 2009 Alejandro Ayuso"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "An easy and fast connections manager for GNOME"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Add Connection"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid ""
+"<b>Monocaffe Connections Manager</b>\n"
+"Add Connection\n"
+""
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Alias</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Select:"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Type</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Group</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Preferences"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid ""
+"<b>Monocaffe Connections Manager</b>\n"
+"Preferences\n"
+""
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Font Style:"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Font Color:"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Choose some font"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Choose some color"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Buffer Size:"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Console</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Color:"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Image:"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Desaturation:"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Background Transparent:"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Select-by-word Characters:"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "When the user double-clicks to start selection, the terminal will extend the selection on word boundaries. It will treat characters included in spec as parts of words, and all other characters as word separators. Ranges of characters can be specified by separating them with a hyphen. Percentage symbol is not supported."
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Uso no background image"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Background</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "General"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Client</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Default Options</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "SSH"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "FTP"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Telnet"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "RDP"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Embedded (to implement?)"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "VNC"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Select File to Import"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid ""
+"Csv Files\n"
+"All Files"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid ""
+"<b>Monocaffe Connections Manager</b>\n"
+"Importing Connections\n"
+""
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "<b>Importing</b>"
+msgstr ""
+
+#. file 'mcm/gtk/mcm.glade', line ?
+msgid "Export Connections"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 56
+msgid "Send to the World"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 65
+msgid ""
+"If you select the option to send to the world, your tip will be sent to a Google Docs Spreadsheet using an online form. No personal information is sent, only the one you fill on the previous dialog.\n"
+"\n"
+"This Form is online, and the results spreadsheet is public for everyone to see. Check the documentation for the links.\n"
+"\n"
+"If you still feel the need to check on this go to the file \"common/utils.py\" and there is a class called \"GoogleForm\" where all this process happens."
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 67
+msgid "Can't Access file %s"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 76
+msgid "Not a Tip Object"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 78
+msgid "Deleting Connection %s"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 79
+msgid "Are you sure?"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 87
+msgid "Copy"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 88
+msgid "Paste"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 89
+msgid "Google Search"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 90
+msgid "Set as Title"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 92
+msgid "Press Enter to Save changes"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 94
+msgid "Export to CSV done"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 95
+msgid "Export to HTML done"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 96
+msgid "Saved file %s"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 98
+msgid "Unable to update tips file"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 99
+msgid "An error ocurred, please check the log files for more information"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 100
+msgid "Tips Update Success"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 101
+msgid "The tips file has been updated succesfully using %s. A backup file has been created."
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 103
+msgid "This alias is already used"
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 104
+msgid "The alias for the new connection. Must be unique."
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 106
+msgid ""
+"Not saving %s\n"
+""
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 107
+msgid ""
+"Saved %s\n"
+""
+msgstr ""
+
+#. file 'mcm/common/constants.py', line 108
+msgid "Set For Clustered Commands"
+msgstr ""

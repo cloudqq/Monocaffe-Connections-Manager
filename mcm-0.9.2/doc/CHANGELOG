@@ -1,0 +1,53 @@
+Fri Oct 23 10:43:39 CET 2009 Alejandro Ayuso 
+ * Initial release version 0.1
+
+Tue Oct 27 10:45:51 CET 2009 Alejandro Ayuso
+ * Version 0.2
+ * tables.py (added): fix the screen print of tables, thanks to bob_f
+ * connections.py (Rdp): implemented the RDP protocol
+
+Tue Oct 27 10:45:51 CET 2009 Alejandro Ayuso 
+ * Version 0.3
+ * mcm.py (main): Added a "dialog" menu listing to easily select the connections
+ * connections.py(Ftp): added the FTP protocol
+ * connections.py(Dao): instead of using a : separated file, now we use a XML one.
+
+Mon Nov  2 12:31:41 CET 2009 Alejandro Ayuso
+ * Version 0.4
+ * Correct parsing, saving and usage of options. Had to modify the XML structure too.
+ * Added grouping to be used on future GTK and Qt apps
+ * Added importing from CSV files using : and "
+ * Added export to HTML
+
+Nov 11 13:41:42 CET 2009 Alejandro Ayuso 
+ * Version 0.5.1
+ * First GTK Version
+
+Nov 13 13:41:42 CET 2009 Alejandro Ayuso 
+ * Version 0.5.2
+ * Terminal:
+   * Removed JBoss (it was dumb)
+ * GTK
+   * Added a gtk.Netbook with a VteTerminal Widget
+
+Nov 16 13:41:42 CET 2009 Alejandro Ayuso 
+ * Version 0.5.3
+ * Added the "Add Connection Dialog"
+ * Added the Clustered Tabs and Cluster command line (need to enhance this)
+
+Wed Nov 18 09:58:05 CET 2009 Alejandro Ayuso
+ * Version 0.6
+ * Added Export to CSV
+ * Added Export to HTML
+ * Added Import from CSV
+
+lun dic 7 18:09:29 CET 2009 Alejandro Ayuso
+ * Version 0.7
+ * Many changes made to the GTK interface.
+
+lun dic 14 18:09:29 CET 2009 Alejandro Ayuso
+ * Version 0.8
+ * Fixed some bugs
+ * Changes to the GTK UI
+ * Refactored to work with Glade3
+
